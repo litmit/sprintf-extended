@@ -1,0 +1,40 @@
+{
+  "name": "sprintf-extended",
+  "description": "sprint-js with all extensions plugged in",
+  "version": "0.0.1",
+  "homepage": "https://github.com/litmit/sprintf-extended",
+  "author": {
+    "name": "Dzmitry Litskalau",
+    "email": "litmit@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/litmit/sprintf-extended.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litmit/sprintf-extended/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "sprintf",
+    "extension",
+    "string",
+    "format",
+    "strftime",
+    "date",
+    "time"
+  ],
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "sprintf-ext-strftime": "0.0.1",
+    "sprintf-ext-string": "0.0.1",
+    "sprintf-js": "git+https://github.com/litmit/sprintf.js.git#expandable",
+    "strftime": "^0.10.0"
+  }
+}
