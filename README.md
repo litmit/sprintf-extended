@@ -36,37 +36,37 @@ The placeholders in the format string are marked by `%` and are followed by one 
 * An optional precision modifier, consisting of a `.` (dot) followed by a number, that says how many digits should be displayed for floating point numbers. When used with the `g` type specifier, it specifies the number of significant digits. When used on a string, it causes the result to be truncated.
 * An optional format modifiers in square brackets (`[]`). Currently they are uses only in formatting extensions.
 * A type specifier that can be any of:
-    * `%` — yields a literal `%` character
-    * `b` — yields an integer as a binary number
-    * `c` — yields an integer as the character with that ASCII value
-    * `d` or `i` — yields an integer as a signed decimal number
-    * `e` — yields a float using scientific notation
-    * `u` — yields an integer as an unsigned decimal number
-    * `f` — yields a float as is; see notes on precision above
-    * `g` — yields a float as is; see notes on precision above
-    * `o` — yields an integer as an octal number
-    * `s` — yields a string as is
-    * `t` — yields `true` or `false`
-    * `T` — yields the type of the argument<sup><a href="#fn-1" name="fn-ref-1">1</a></sup>
-    * `v` — yields the primitive value of the specified argument
-    * `x` — yields an integer as a hexadecimal number (lower-case)
-    * `X` — yields an integer as a hexadecimal number (upper-case)
-    * `j` — yields a JavaScript object or array as a JSON encoded string
-    * `S` — yields a string formatted according [format modifiers](#string-format-modifiers) or in upper case by default
-    * `D` — yields a date/time formatted according [format modifiers](#date-time-format-modifiers)
+    * `%` â€” yields a literal `%` character
+    * `b` â€” yields an integer as a binary number
+    * `c` â€” yields an integer as the character with that ASCII value
+    * `d` or `i` â€” yields an integer as a signed decimal number
+    * `e` â€” yields a float using scientific notation
+    * `u` â€” yields an integer as an unsigned decimal number
+    * `f` â€” yields a float as is; see notes on precision above
+    * `g` â€” yields a float as is; see notes on precision above
+    * `o` â€” yields an integer as an octal number
+    * `s` â€” yields a string as is
+    * `t` â€” yields `true` or `false`
+    * `T` â€” yields the type of the argument<sup><a href="#fn-1" name="fn-ref-1">1</a></sup>
+    * `v` â€” yields the primitive value of the specified argument
+    * `x` â€” yields an integer as a hexadecimal number (lower-case)
+    * `X` â€” yields an integer as a hexadecimal number (upper-case)
+    * `j` â€” yields a JavaScript object or array as a JSON encoded string
+    * `S` â€” yields a string formatted according [format modifiers](#string-format-modifiers) or in upper case by default
+    * `D` â€” yields a date/time formatted according [format modifiers](#date-time-format-modifiers)
 
 ### String format modifiers
 They would apply when the `S` type specifier used.
 
-* missing or `U` - yields a string in UPPER CASE
-* empty - yields a string as is (`%[]S` like `%s`)
-* `l`  - yields a string in lower case
-* `F`  - yields a string with first letter in Upper case
-* `f`  - yields a string with first letter in lower case
-* `Fl` - yields a string with first letter in Upper case and others in Lower case
-* `fU` - yields a string with first letter in lower case and others in uPPER CASE
-* `C`  - yields a string with first letter in each word in Upper Case
-* `Cl` - yields a string with first letter in each word in Upper Case and others in Lower case
+* missing or `U` â€” yields a string in UPPER CASE
+* empty â€” yields a string as is (`%[]S` like `%s`)
+* `l`  â€” yields a string in lower case
+* `F`  â€” yields a string with first letter in Upper case
+* `f`  â€” yields a string with first letter in lower case
+* `Fl` â€” yields a string with first letter in Upper case and others in Lower case
+* `fU` â€” yields a string with first letter in lower case and others in uPPER CASE
+* `C`  â€” yields a string with first letter in each word in Upper Case
+* `Cl` â€” yields a string with first letter in each word in Upper Case and others in Lower case
 
 See [sprintf-ext-string](https://github.com/litmit/sprintf-ext-string) for complete reference and examples.
 
