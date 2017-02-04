@@ -1,7 +1,7 @@
 {
   "name": "sprintf-extended",
   "description": "sprint-js with all extensions plugged in",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/litmit/sprintf-extended",
   "author": {
     "name": "Dzmitry Litskalau",
